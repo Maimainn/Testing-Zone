@@ -20,48 +20,48 @@
   {
     "name": "The Great Wall of Gorgan",
     "isWonder": true,
-    "cost": 480,
-    "cityStrength": 30,
-    "cityHealth": 75,
-    "requiredTech": "Engineering",
+    "cost": 1020,
+    "cityStrength": 50,
+    "cityHealth": 175,
+    "requiredTech": "Dynamite",
     "uniques": [
-      "[+25]% City Strength from defensive buildings",
+      "[+30]% City Strength from defensive buildings",
       "All healing effects doubled",
-      "All newly-trained [Military] units [in this city] receive the [Cover I] promotion",
-      "[+15]% Strength for cities",
+      "All newly-trained [Military] units [in this city] receive the [March] promotion",
+      "[+35]% Strength for cities",
       "Free [Great General] appears"
     ],
-    "culture": 1,
+    "culture": 3,
     "quote": "'Even the longest wall cannot guard the heart unfortified.' - Inscription found near the Red Snake Walls, Persia"
   },
   {
     "name": "The Hanging Gardens of Nineveh",
     "isWonder": true,
-    "cost": 460,
-    "food": 6,
+    "cost": 280,
+    "food": 9,
     "requiredTech": "Engineering",
     "uniques": [
-      "[+15]% growth [in all cities]",
-      "[+2 Food] from every [Garden]",
-      "[+10]% [Food] from Trade Routes",
-      "Gain a free [Garden] [in this city]"
+      "[+20]% growth [in all cities]",
+      "[+3 Food] from every [Garden]",
+      "[+20]% [Food] from Trade Routes",
+      "Gain a free [Garden] [in all cities]"
     ],
-    "culture": 2,
+    "culture": 4,
     "quote": "'From barren earth, the queen made paradise bloom.' - Fragment from the Chronicles of Ashurbanipal"
   },
   {
     "name": "The Theatre of Dionysus",
     "isWonder": true,
-    "cost": 500,
-    "culture": 6,
+    "cost": 290,
+    "culture": 12,
     "requiredTech": "Drama and Poetry",
     "uniques": [
-      "[+15]% [Culture] [in all cities]",
-      "[+2 Culture] from every [Amphitheater]",
-      "[+10]% Great Person generation [in this city]",
+      "[+25]% [Culture] [in all cities]",
+      "[+4 Culture] from every [Amphitheater]",
+      "[+50]% Great Person generation [in this city]",
       "Gain a free [Amphitheater] [in this city]"
     ],
-    "greatPersonPoints": {"Great Artist": 1},
+    "greatPersonPoints": {"Great Artist": 3},
     "quote": "'The masks we wear reveal more than they hide.' - Athenian Maxim, 4th century BCE"
   },
   {
@@ -70,14 +70,18 @@
     "cost": 520,
     "requiredTech": "Acoustics",
     "uniques": [
-      "[+10]% [Science] [in all cities]",
-      "[+10]% [Gold] [in all cities]",
-      "[+10]% [Culture] [in all cities]",
-      "[+10]% [Production] [in this city]",
-      "Gain a free [Great Person]"
+      "[+15]% [Science] [in all cities]",
+      "[+15]% [Gold] [in all cities]",
+      "[+15]% [Culture] [in all cities]",
+      "[+15]% [Production] [in all cities]",
+      "[+100]% Great Person generation [in this city]",
+      "[+25]% Great Person generation [in all cities]",
+      "Free Great Person"
     ],
-    "culture": 3,
-    "greatPersonPoints": {"Great Musician": 1},
+    "culture": 5,
+    "greatPersonPoints": {"Great Artist": 2},
+    "greatPersonPoints": {"Great Scientist": 2},
+    "greatPersonPoints": {"Great Engineer": 2},
     "quote": "'When all voices align, even silence becomes divine.' - Verse from the Lost Hymns of Kailasa"
   }
 ]
