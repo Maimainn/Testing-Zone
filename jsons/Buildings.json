@@ -44,7 +44,8 @@
       "[+20]% growth [in all cities]",
       "[+3 Food] from every [Garden]",
       "[+20]% [Food] from Trade Routes",
-      "Gain a free [Garden] [in all cities]"
+      "Gain a free [Garden] [in all cities]",
+      "[+95]% Food is carried over after population increases [in all cities connected to capital]"
     ],
     "culture": 4,
     "quote": "'From barren earth, the queen made paradise bloom.' - Fragment from the Chronicles of Ashurbanipal"
