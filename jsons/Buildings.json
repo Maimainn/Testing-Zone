@@ -17,52 +17,50 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Atomic Theory"
 	},
-  {
-    "name": "The Great Intelligence Bureau",
-    "isWonder": true,
-    "cost": 480,
-    "requiredTech": "Printing Press",
-    "culture": 3,
-    "science": 2,
-    "uniques": [
-      "Only available <when espionage is enabled>",
-      "Gain a free [Spy]",
-      "New spies start with [2] level(s)",
-      "[+25]% spy effectiveness [in all cities]",
-      "[-35]% enemy spy effectiveness [in all cities]",
-      "[+2 Culture] from every [Constabulary] [in this city]"
-    ],
-    "quote": "'The shadows listen more than the light ever sees, and in silence, empires are both guarded and undone.' - Attributed to an unnamed statesman in *The Chronicles of the Hidden Court*"
-  },
-  {
-    "name": "The House of Wisdom",
-    "isWonder": true,
-    "cost": 520,
-    "requiredTech": "Education",
-    "science": 7,
-    "culture": 4,
-    "greatPersonPoints": {"Great Scientist": 5},
-    "uniques": [
-      "Free [Great Scientist] appears",
-      "[+40]% Science [in this city]",
-      "[+3 Science] from every [Library] [in this city]",
-      "Gain a free [Library] [in all cities]"
-    ],
-    "quote": "'He who seeks the light of understanding must first be willing to walk through the long night of ignorance.' - Ibn Khaldun, *Muqaddimah*"
-  },
-  {
-    "name": "The Golden Exchange",
-    "isWonder": true,
-    "cost": 550,
-    "requiredTech": "Economics",
-    "gold": 11,
-    "greatPersonPoints": {"Great Merchant": 5},
-    "uniques": [
-      "[+30]% [Gold] from Trade Routes",
-      "[+5 Gold] from every [Market]",
-      "Gain [370] [Gold] <upon completing a Trade Route> <(modified by game speed)>",
-      "Free [Great Merchant] appears"
-    ],
-    "quote": "'All value is illusion until it passes through willing hands, for gold is but the reflection of trust.' - Fragment from *Letters of an Unknown Merchant*"
-   }
+	{
+		"name": "The Great Intelligence Bureau",
+		"isWonder": true,
+		"cost": 550,
+		"requiredTech": "Printing Press",
+		"uniques": [
+			"Only available <when espionage is enabled>",
+			"[+25]% spy effectiveness [in all cities]",
+			"[+25]% enemy spy effectiveness [in this city]",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"[+2 Culture] [in this city]"
+		],
+		"culture": 2,
+		"greatPersonPoints": {"Great Spy": 1},
+		"quote": "'The quietest words often hold the loudest secrets.' - Unknown, from the Archives of the Shadow Court"
+	},
+	{
+		"name": "The House of Wisdom",
+		"isWonder": true,
+		"cost": 500,
+		"requiredTech": "Education",
+		"uniques": [
+			"[+15]% Science [in all cities]",
+			"[+1 Science] from every [Library]",
+			"[+25]% Great Person generation [in this city]"
+		],
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"quote": "'He who knows the measure of ignorance approaches the beginning of wisdom.' - From the Sayings of Al-Kindi"
+	},
+	{
+		"name": "The Golden Exchange",
+		"isWonder": true,
+		"cost": 600,
+		"requiredTech": "Economics",
+		"uniques": [
+			"[+15]% Gold [in all cities]",
+			"[+2 Gold] from every [Market]",
+			"Gain [100] [Gold] <when a Trade Route is created> <(modified by game speed)>",
+			"[+1 Happiness] [in this city]"
+		],
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"quote": "'Coins are but metal until trust gives them life.' - From The Ledger of the First Merchants"
+	}
 ]
