@@ -26,12 +26,12 @@
 			"Only available <when espionage is enabled>",
 			"[+25]% spy effectiveness [in all cities]",
 			"[+25]% enemy spy effectiveness [in this city]",
+			"[+15]% Culture [in all cities]",
 			"Promotes all spies [1] time(s)",
 			"Gain an extra spy",
 			"[+2 Culture] [in this city]"
 		],
 		"culture": 2,
-		"greatPersonPoints": {"Great Spy": 1},
 		"quote": "'The quietest words often hold the loudest secrets.' - Unknown, from the Archives of the Shadow Court"
 	},
 	{
@@ -45,7 +45,7 @@
 			"[+25]% Great Person generation [in this city]"
 		],
 		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Scientist": 3},
 		"quote": "'He who knows the measure of ignorance approaches the beginning of wisdom.' - From the Sayings of Al-Kindi"
 	},
 	{
@@ -55,12 +55,12 @@
 		"requiredTech": "Economics",
 		"uniques": [
 			"[+15]% Gold [in all cities]",
-			"[+2 Gold] from every [Market]",
-			"Gain [100] [Gold] <when a Trade Route is created> <(modified by game speed)>",
+			"[+3 Gold] from every [Market]",
+			"Gain [350] [Gold] <when a Trade Route is created> <(modified by game speed)>",
 			"[+1 Happiness] [in this city]"
 		],
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 3},
 		"quote": "'Coins are but metal until trust gives them life.' - From The Ledger of the First Merchants"
 	}
 ]
