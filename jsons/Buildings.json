@@ -17,4 +17,67 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Atomic Theory"
 	},
+  {
+    "name": "The Great Wall of Gorgan",
+    "isWonder": true,
+    "cost": 480,
+    "cityStrength": 30,
+    "cityHealth": 75,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "[+25]% City Strength from defensive buildings",
+      "All healing effects doubled",
+      "All newly-trained [Military] units [in this city] receive the [Cover I] promotion",
+      "[+15]% Strength for cities",
+      "Free [Great General] appears"
+    ],
+    "culture": 1,
+    "quote": "'Even the longest wall cannot guard the heart unfortified.' - Inscription found near the Red Snake Walls, Persia"
+  },
+  {
+    "name": "The Hanging Gardens of Nineveh",
+    "isWonder": true,
+    "cost": 460,
+    "food": 6,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "[+15]% growth [in all cities]",
+      "[+2 Food] from every [Garden]",
+      "[+10]% [Food] from Trade Routes",
+      "Gain a free [Garden] [in this city]"
+    ],
+    "culture": 2,
+    "quote": "'From barren earth, the queen made paradise bloom.' - Fragment from the Chronicles of Ashurbanipal"
+  },
+  {
+    "name": "The Theatre of Dionysus",
+    "isWonder": true,
+    "cost": 500,
+    "culture": 6,
+    "requiredTech": "Drama and Poetry",
+    "uniques": [
+      "[+15]% [Culture] [in all cities]",
+      "[+2 Culture] from every [Amphitheater]",
+      "[+10]% Great Person generation [in this city]",
+      "Gain a free [Amphitheater] [in this city]"
+    ],
+    "greatPersonPoints": {"Great Artist": 1},
+    "quote": "'The masks we wear reveal more than they hide.' - Athenian Maxim, 4th century BCE"
+  },
+  {
+    "name": "The Sanctum of Harmony",
+    "isWonder": true,
+    "cost": 520,
+    "requiredTech": "Acoustics",
+    "uniques": [
+      "[+10]% [Science] [in all cities]",
+      "[+10]% [Gold] [in all cities]",
+      "[+10]% [Culture] [in all cities]",
+      "[+10]% [Production] [in this city]",
+      "Gain a free [Great Person]"
+    ],
+    "culture": 3,
+    "greatPersonPoints": {"Great Musician": 1},
+    "quote": "'When all voices align, even silence becomes divine.' - Verse from the Lost Hymns of Kailasa"
+  }
 ]
