@@ -17,4 +17,47 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Atomic Theory"
 	},
+  {
+    "name": "Airfield",
+    "cost": 200,
+    "production": 1,
+    "maintenance": 1,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Enables [Air] units to be stationed in this city",
+      "Units in this city cost no Maintenance <for [Air] units>",
+      "Air unit capacity increased by [1]"
+    ]
+  },
+  {
+    "name": "Regional Airport",
+    "cost": 360,
+    "production": 3,
+    "maintenance": 2,
+    "requiredBuilding": "Airfield",
+    "requiredTech": "Radar",
+    "uniques": [
+      "Air Units adjacent to this city heal [5] HP per turn when healing",
+      "Units in this city cost no Maintenance <for [Air] units>",
+      "Air unit capacity increased by [2]",
+      "Must be on [Flat] tiles"
+    ]
+  },
+  {
+    "name": "Aviation Hub",
+    "cost": 640,
+    "production": 5,
+    "gold": 3,
+    "maintenance": 4,
+    "requiredBuilding": "Regional Airport",
+    "requiredTech": "Satellites",
+    "uniques": [
+      "Can carry [1] extra [Air] units",
+      "Air Units adjacent to this city heal [5] HP per turn when healing",
+      "Units in this city cost no Maintenance <for [Air] units>",
+      "[+1 Gold] per [Trade Route] if this city has an owned [Airport]",
+      "Limited to [3] per Civilization",
+      "Must have an owned [Road] within [1] tiles"
+    ]
+  }
 ]
