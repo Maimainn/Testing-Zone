@@ -36,7 +36,7 @@
     "requiredBuilding": "Airfield",
     "requiredTech": "Radar",
     "uniques": [
-      "Air Units adjacent to this city heal [5] HP per turn when healing",
+      "[Air] Units adjacent to this city heal [5] HP per turn when healing",
       "[3] units cost no maintenance <for [Air] units> <in this city>",
       "Can carry [1] extra [Air] units",
       "Must be next to [Open terrain]"
@@ -52,7 +52,7 @@
     "requiredTech": "Satellites",
     "uniques": [
       "Can carry [1] extra [Air] units",
-      "Air Units adjacent to this city heal [5] HP per turn when healing",
+      "[Air] Units adjacent to this city heal [5] HP per turn when healing",
       "Units in cities cost no Maintenance <for [Air] units> <in this city>",
       "[+1 Gold] from each Trade Route <if [Aviation Fuel Plant] is constructed>",
       "Limited to [3] per Civilization",
