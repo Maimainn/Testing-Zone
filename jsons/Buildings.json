@@ -57,8 +57,7 @@
       "[+1 Gold] from each Trade Route <if [Aviation Fuel Plant] is constructed>",
       "Limited to [3] per Civilization",
       "Must be next to [Open terrain]",
-      "Must have an owned [Road] within [1] tiles",
-      "Must have an owned [Railroad] within [1] tiles",
+      "Must have an owned [Road] within [1] tiles"
     ]
   }
 ]
