@@ -24,7 +24,7 @@
     "maintenance": 1,
     "requiredTech": "Flight",
     "uniques": [
-      "Units in this city cost no Maintenance <for [Air] units>",
+      "[1] units cost no maintenance <for [Air] units> <in this city>",
       "Air unit capacity increased by [1]"
     ]
   },
@@ -37,6 +37,7 @@
     "requiredTech": "Radar",
     "uniques": [
       "Air Units adjacent to this city heal [5] HP per turn when healing",
+      "[3] units cost no maintenance <for [Air] units> <in this city>",
       "Air unit capacity increased by [2]",
       "Must be on [Flat] tiles"
     ]
